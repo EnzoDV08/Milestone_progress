@@ -1,0 +1,563 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #0b0c10;
+}
+
+
+
+.logo{
+    
+   float: left;
+   color: white;
+   margin-left: 370px;
+   padding-top: 45px;
+   
+
+   
+}
+
+.nav-con{
+    float: right;
+    font-weight: lighter;
+    
+}
+    
+.nav-con ul{
+    list-style: none;
+    margin-right: 800px;
+}
+.nav-con li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+
+}
+
+
+
+  .search{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 80%;
+    margin-top: 40px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: aqua;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+
+
+header{
+    width: 100%;
+    height: 950px;
+    background-color: lightgrey;
+    background-image: url("../assets/logic_no_pressure_home_cover_image.png");
+    background-size: cover;
+   
+}
+
+.button-group{
+    width: 725px;
+    height: 70px;
+    margin-left: 240px;
+    padding-top: 10px;
+}
+
+.button{
+    width: 225px;
+    height: 70px;
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.button-2{
+    width: 70px;
+    height: 70px;
+    background-image: url("../assets/heart_icon.svg");
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    
+    
+}
+.overlay{
+    width: 100%;
+    height: 950px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 200px;
+}
+
+.normal{
+    background-color: turquoise;
+    color: black;
+    
+}
+
+.normal:hover{
+ cursor: pointer;
+ background-color: transparent;
+ border: 2px solid turquoise;
+ border-width: 5px;
+ padding-top: 15px;
+}
+.inverted{
+    border: 2px solid turquoise;
+   border-width: 5px;
+    padding-top: 15px !important;
+    color: white;
+}
+.inverted-2{
+    border: 2px solid #2b2b2b;
+    padding-top: 20px !important;
+    
+}
+
+.inverted:hover{
+    cursor: pointer;
+ background-color: turquoise;
+ color: #ffff;
+
+}
+
+.inverted-2:hover{
+    cursor: pointer;
+ background-color: turquoise;
+ color: #ffff;
+}
+
+.sub{
+    padding-left: 240px;
+    padding-top: 80px;
+    font-size: 70px;
+   color: white;
+}
+
+.sub h3{
+    color: white;
+   font-weight: bold;
+}
+
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 500px;
+    margin-left:20px ;
+}
+
+.container {
+    display: flex;
+    position: relative;
+
+  }
+ 
+
+.link-text{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.link-text :hover{
+  color: black;
+}
+
+
+
+  footer{
+    width: 100%;
+    height: 100px;
+    color: white;
+  }
+
+  
+  .column-1 p{
+    width: 200px;
+    text-align: left;
+    color: white;
+    
+
+  }
+
+  .column-1{
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/man_on_the_moon_album_cover.png') ;
+    margin-left: 50px;
+    margin-top: 600px;
+    margin-bottom: 100px;
+    flex: 25%;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .column-2{
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/blame_it_on_baby_album_cover.png');
+    margin-left: 50px;
+    margin-top: 600px;
+    margin-bottom: 100px;
+    flex: 25%;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .column-5{
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/happy_thoughts_album_cover.png');
+    margin-left: 50px;
+    margin-top: 600px;
+    margin-bottom: 100px;
+    flex: 25%;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+  .column-6{
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/music_to_be_murdered_by_album_cover.png');
+    margin-left: 50px;
+    margin-top: 600px;
+    margin-bottom: 100px;
+    flex: 25%;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .column-3 {
+    width: 100%;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 193px;
+    margin-bottom: px;
+    flex: 25%;
+    padding: 5px;
+  }
+
+  .column-4 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/low_end_theory_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .column-3 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/wu_tang_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+  .column-7 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/to_pimp_a_butterfly_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .column-8 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/revenge_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .column-14 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/kod_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .column-11 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/no_pressure_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .column-12 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/circles_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+  .column-13 {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/kanye_album_cover.png');
+    margin-left: 50px;
+    margin-top: 150px;
+    flex: 25%;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+
+  
+
+  .footer-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    background-color: aqua;
+    border-radius: 50%;
+   
+
+}
+
+
+.footer-container{
+    float: right;
+    width: 15%;
+    display: flex;
+    margin-right: 260px;
+    margin-bottom: 50px;
+}
+
+footer p{
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 350px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.column-9{
+  width: 700px;
+  height: 400px;
+  background-color: azure;
+  margin-top: -50px;
+  margin-left: -70px;
+  z-index: 2;
+}
+
+.column-10{
+  width: 800px;
+  height: 500px;
+  background-color:  rgba(26, 26, 36, 0.6);
+  margin-top: -50px;
+  margin-left: -90px;
+  padding-top: 30px;
+
+}
+
+.column-10 h4{
+  padding-left: 120px;
+  color: white;
+}
+
+.column-10 h1{
+  padding-left: 120px;
+  color: white;
+}
+
+.column-10 p{
+  padding-left: 120px;
+  color: white;
+  padding-top: 50px;
+  word-spacing: 5px;
+  font-size: large;
+}
+
+.button-3{
+  width: 50px;
+  height: 50px;
+  background-image: url("../assets/right_arrow_icon.svg");
+  float: right;
+  margin-right: 120px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.inverted-3{
+  border: 2px solid #2b2b2b;
+  padding-top: 20px !important;
+}
+
+.inverted-3:hover{
+  cursor: pointer;
+background-color: turquoise;
+color: #ffff;
+}
+
+.button-4{
+  width: 50px;
+  height: 50px;
+  background-image: url("../assets/left_arrow_icon.svg");
+  
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.inverted-4{
+  border: 2px solid #2b2b2b;
+  padding-top: 20px !important;
+}
+
+.inverted-4:hover{
+  cursor: pointer;
+background-color: turquoise;
+color: #ffff;
+}
+
+
+.button-5{
+  width: 40px;
+  height: 40px;
+  background-image: url('../assets/heart_icon.svg');
+  margin-left: 190px;
+  margin-top: -40px;
+  background-image: url('../assets/heart_icon.svg');
+  background-position: center;
+  background-size: cover;
+  
+  border-radius: 50px;
+}
+
+.inverted-5{
+  border: 2px solid #2b2b2b;
+  padding-top: 20px !important;
+}
+
+.inverted-5:hover{
+cursor: pointer;
+color: #ffff;
+}
+
+.overlay-10{
+  width: 100%;
+  height: 250px;
+  margin-top: 30px;
+  opacity: 0;
+}
+
+.overlay-10:hover{
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+.icon{
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 255, 255, 0.411);
+  background-image: url('../assets/play_icon.svg');
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 90px;
+  background-position: center;
+  
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
+
+.context{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-left: 25px;
+  padding-top: 9px;
+  margin-top: 30px;
+}
+
+
+.context p{
+    font-size: 12px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+
+
+
+.column-1 h4{
+  margin-top: -40px;
+  color: white;
+}
+
+.overlay-11{
+  width: 100%;
+  height: 250px;
+  margin-top: 101px;
+  opacity: 0;
+}
+
+.overlay-11:hover{
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+.column-4 h4{
+  margin-top: -40px;
+  color: white;
+}
+
+.overlay-12{
+  width: 100%;
+  height: 250px;
+  margin-top: 101px;
+  opacity: 0;
+}
+
+.overlay-12:hover{
+  cursor: pointer;
+  opacity: 1;
+
+}
